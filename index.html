@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Oxygen</title>
+  </head>
+  <body>
+
+    <div class="modal2 red" id="myOtherOtherOtherModal"></div>
+    <div class="modal2" id="myOtherOtherOtherOtherModal">
+      <h2>Oxygen is Depleting</h2>
+    </div>
+
+
+    <div class="modal2" id="TaskComplete">
+      <h2>Task Complete!</h2>
+    </div>
+
+    <div class="modal2" id="GotoCafeteria">
+      <h2>You have completed all tasks!</h2>
+    </div>
+
+    <div class="modal2" id="EscapeText">
+      <h2>Go to Cafeteria to Escape Ship!</h2>
+    </div>
+
+<!-- Map -->
+    <div
+    class="close-1 pointer"
+    style="top: 2%; left: 85%"
+    id="Emergency-pop"
+    onclick="showMap()"
+  >
+
+
+
+     <!-- Map -->
+     <div class="all-map-modal center-content" id="myMap">
+      <div class="modal-body-map" id="mapPicture">
+        <!-- LAYOUT HERE -->
+     <div class="cafeteria" style="top: 10%; left: 42%" onclick="goCafeteria()"></div>
+       <!--  <div class="reactor" style="top: 40%; left: 10%"></div> --->
+       <!--  <div class="oxygen" style="top: 40%; left: 40%"></div> -->
+     <!--    <div class="admin" style="top: 40%; left: 40%"></div> -->
+  
+      <!--   <div class="weapons" style="top: 40%; left: 40%"></div> -->
+       <!--  <div class="hotspot" style="top: 40%; left: 40%"></div> -->
+      </div>
+    </div>
+    <!-- Map -->
+  </div>
+
+    <div class="modal2" id="Refill">
+      <h2>Quickly Enter Codes to refill oxygen!</h2>
+    </div>
+
+    <!-- code for body of page -->
+    <div class="paddy" style="top: 470px; left: 1030px">
+      <img
+        src="images/minipad.png"
+        id="minipad"
+        class="small-img img"
+        onclick="showModal()"
+      />
+         <!-- Map -->
+         <div class="all-map-modal center-content" id="myMap">
+          <div class="modal-body-map" id="mapPicture">
+            <!-- LAYOUT HERE -->
+         <div class="cafeteria" style="top: 10%; left: 42%" onclick="goCafeteria()"></div>
+           <!--  <div class="reactor" style="top: 40%; left: 10%"></div> --->
+           <!--  <div class="oxygen" style="top: 40%; left: 40%"></div> -->
+         <!--    <div class="admin" style="top: 40%; left: 40%"></div> -->
+            <div
+              class=""
+              style="top: 56%; left: 35%"
+              onclick="goElectrical()" id="electric"
+            ></div>
+          <!--   <div class="weapons" style="top: 40%; left: 40%"></div> -->
+           <!--  <div class="hotspot" style="top: 40%; left: 40%"></div> -->
+          </div>
+        </div>
+        <!-- Map -->
+    </div>
+
+    <!-- code for modal pop-up -->
+    <div class="modal" id="myModal"><div class="modal-body">
+      <div class="" >
+        <img style="  top: 30%; left: 64%;"
+          src="images/1-Notes.png"
+          id="notecheck"
+          class="note"
+        />   </div>
+        
+        <div class="" >
+        <img style="  top: 29%; left: 65.5%;"
+        src="images/2-Notes.png"
+        id="notecheck"
+        class="note"
+      />   </div>
+
+      <div class="" >
+        <img style="  top: 27.5%; left: 67.5%;"
+          src="images/3-Notes.png"
+          id="notecheck"
+          class="note"
+        />   </div>
+        
+        <div class="" >
+        <img style="  top: 26%; left: 69.2%;"
+        src="images/4-Notes.png"
+        id="notecheck"
+        class="note"
+      />   </div>
+
+      <div class="" >
+        <img style="  top: 24.5%; left: 71.3%;"
+        src="images/5-Notes.png"
+        id="notecheck"
+        class="note"
+      />   </div>
+
+        <!-- BUILD YOUR LAYOUT HERE -->
+        <div class="top-row" onclick="">
+          <div class="top-row-left-box" onclick="">
+            <div class="top-row-left-box-top-row" onclick="">
+              <div class="box" onclick="">
+                <img
+                  src="images/exit-button.png"
+                  id="exit"
+                  class="small-img img"
+                  onclick="hideModal()"
+                />
+              </div>
+            </div>
+          </div>
+          
+          <div class="pincode-box" style="top: 14.6%; left: 38%">
+            <div class="pinslot" id="pinslot" top: 160px; left: 730px">
+            <img src="" id="pinslot1" class="small-img img" onclick="" />
+          </div>
+          <div class="pinslot" id="pinslot" top: 160px; left: 730px">
+            <img src="" id="pinslot2" class="small-img img" onclick="" />
+          </div>
+          <div class="pinslot" id="pinslot" top: 160px; left: 730px">
+            <img src="" id="pinslot3" class="small-img img" onclick="" />
+          </div>
+          <div class="pinslot" id="pinslot" top: 160px; left: 730px">
+            <img src="" id="pinslot4" class="small-img img" onclick="" />
+          </div>
+          <div class="pinslot " id="pinslot" top: 160px; left: 730px">
+            <img src="" id="pinslot5" class="small-img img" onclick="" />
+          </div>
+        </div>
+      </div>
+      <div class="main-content-row" onclick="">
+        <!--        <div class="num1" style="top: 28.5%; left: 725px">  -->
+        <div class="num1" style="top: 305px; left: 725px">
+          <img
+            src="images/1-Keypad.png"
+            id="num1"
+            class="small-img img"
+            onclick="pressKey(1)"
+          />
+        </div>
+
+        <div class="num2" style="top: 305px; left: 885px">
+          <img
+            src="images/2-Keypad.png"
+            id="num2"
+            class="small-img img"
+            onclick="pressKey(2)"
+          />
+        </div>
+
+        <div class="num3" style="top: 305px; left: 1045px">
+          <img
+            src="images/3-Keypad.png"
+            id="num3"
+            class="small-img img"
+            onclick="pressKey(3)"
+          />
+        </div>
+
+        <div class="num4" style="top: 470px; left: 725px">
+          <img
+            src="images/4-Keypad.png"
+            id="num4"
+            class="small-img img"
+            onclick="pressKey(4)"
+          />
+        </div>
+
+        <div class="num5" style="top: 470px; left: 885px">
+          <img
+            src="images/5-Keypad.png"
+            id="num5"
+            class="small-img img"
+            onclick="pressKey(5)"
+          />
+        </div>
+
+        <div class="num6" style="top: 470px; left: 1045px">
+          <img
+            src="images/6-Keypad.png"
+            id="num6"
+            class="small-img img"
+            onclick="pressKey(6)"
+          />
+        </div>
+
+        <div class="num7" style="top: 635px; left: 725px">
+          <img
+            src="images/7-Keypad.png"
+            id="num7"
+            class="small-img img"
+            onclick="pressKey(7)"
+          />
+        </div>
+
+        <div class="num8" style="top: 635px; left: 885px">
+          <img
+            src="images/8-Keypad.png"
+            id="num8"
+            class="small-img img"
+            onclick="pressKey(8)"
+          />
+        </div>
+
+        <div class="num9" style="top: 635px; left: 1045px">
+          <img
+            src="images/9-Keypad.png"
+            id="num9"
+            class="small-img img"
+            onclick="pressKey(9)"
+          />
+        </div>
+
+        <div class="numx" style="top: 795px; left: 725px">
+          <img
+            src="images/X-Keypad.png"
+            id="numx"
+            class="small-img img"
+            onclick="keyX()"
+          />
+        </div>
+
+        <div class="num0" style="top: 795px; left: 885px">
+          <img
+            src="images/0-Keypad.png"
+            id="num0"
+            class="small-img img"
+            onclick="pressKey(0)"
+          />
+        </div>
+
+        <div class="numcheck" style="top: 795px; left: 1045px">
+          <img
+            src="images/Check-Keypad.png"
+            id="numcheck"
+            class="small-img img"
+            onclick="keyCheck()"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    <audio src="" id=""></audio>
+    <audio src="sounds/alarm.mp3" id="alarm"></audio>
+    <audio id="Open" src="sounds/Among-Open.mp3"></audio>
+    <audio id="Close" src="sounds/Among-Close.mp3"></audio>
+    <audio id="Error" src="sounds/Among-Error.mp3"></audio>
+    <audio id="Correct" src="sounds/Among-Correct.mp3"></audio>
+    <audio id="Ambient" src="sounds/Among-Us-Ambient.mp3"></audio>
+    <audio id="Press" src="sounds/Among-Press.mp3"></audio>
+    <audio src="sounds/among-typing.mp3" id="Typing"></audio>
+    <script src="script.js"></script>
+    <script src="preload.js"></script>
+  </body>
+</html>

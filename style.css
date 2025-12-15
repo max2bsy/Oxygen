@@ -1,0 +1,437 @@
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+
+/* the 100vh and 100vw set the size of the body to fill the viewport (screen) */
+body {
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  background-color: black;
+  background-image: url("images/Oxygen-Room.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain; /* Resize the background image to cover the entire container */
+  margin: 0;
+}
+
+h1 {
+  font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5em;
+  text-align: center;
+  color: #7b1a7c;
+}
+
+h2 {
+  font-size: 60px;
+  color: var(--panel);
+  -webkit-text-stroke: 2px black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.paddy {
+  position: absolute;
+  pointer-events: auto;
+  width: 65px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.25s ease;
+}
+
+.num1 {
+  position: absolute;
+  pointer-events: auto;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.25s ease;
+}
+
+.num2 {
+  position: absolute;
+  pointer-events: auto;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.25s ease;
+}
+
+.num3 {
+  position: absolute;
+  pointer-events: auto;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.25s ease;
+}
+
+.num4 {
+  position: absolute;
+  pointer-events: auto;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.25s ease;
+}
+
+.num5 {
+  position: absolute;
+  pointer-events: auto;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.25s ease;
+}
+
+.num6 {
+  position: absolute;
+  pointer-events: auto;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.25s ease;
+}
+
+.num7 {
+  position: absolute;
+  pointer-events: auto;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.25s ease;
+}
+
+.num8 {
+  position: absolute;
+  pointer-events: auto;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.25s ease;
+}
+
+.num9 {
+  position: absolute;
+  pointer-events: auto;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.25s ease;
+}
+
+.numx {
+  position: absolute;
+  pointer-events: auto;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.25s ease;
+}
+
+.close-1 {
+  display: flex;
+  position: absolute;
+  pointer-events: auto;
+  width: 15%;
+  height: 15%;
+}
+
+.num0 {
+  position: absolute;
+  pointer-events: auto;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.25s ease;
+}
+
+.numcheck {
+  position: absolute;
+  pointer-events: auto;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.25s ease;
+}
+
+.note {
+  position: absolute;
+  pointer-events: auto;
+  width: 2%;
+  height: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.25s ease;
+  transform: rotate(-25deg);
+}
+
+.pincode-box {
+  position: absolute;
+  pointer-events: auto;
+  width: 465px;
+  height: 100px;
+  display: flex;
+  transition: 0.25s ease;
+}
+
+/* control your content */
+img {
+  max-height: 95%;
+  max-width: 95%;
+}
+.small-img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.paddy-img {
+  max-height: 75%;
+  max-width: 75%;
+}
+.center-content,
+.square,
+.middle-row,
+.bottom-row,
+.modal {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/* enhance the UX */
+.small-img:hover {
+  cursor: pointer;
+  transform: scale(1.025);
+}
+.small-img:active {
+  transform: scale(0.95);
+}
+.translucent {
+  opacity: 0.5;
+}
+
+/* colors to see divs */
+.purple {
+  background-color: #523d64;
+}
+.red {
+  background-color: #ff0000;
+}
+.green {
+  background-color: #85e21f;
+}
+.orange {
+  background-color: #da6339;
+}
+.gold {
+  background-color: #d3a047;
+}
+.yellow {
+  background-color: #ffeca7;
+}
+.black {
+  background-color: #000000;
+}
+.slate {
+  background-color: #1e171f;
+}
+.dark-grey {
+  background-color: #303131;
+}
+.light-grey {
+  background-color: #606060;
+}
+
+/* modal classes */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+}
+
+h2 {
+  font-size: 60px;
+  color: white;
+  -webkit-text-stroke: 2px black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.modal2 {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 19;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* don't cover the entire screen */
+.modal-body {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  opacity: 1;
+  background-image: url("images/Oxygen-Keyboard-Final.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: contain; /* Resize the background image to cover the entire container */
+  margin: 0;
+}
+
+/* close button */
+.close {
+  color: #aaaaaa;
+  position: fixed;
+  top: 1%;
+  right: 1%;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.top-row {
+  height: 29%;
+  width: 100%;
+  display: flex;
+}
+
+.top-row-left-box {
+  height: 100%;
+  width: 33%;
+  display: block;
+}
+
+.top-row-left-box-top-row {
+  height: 60%;
+  width: 98.5%;
+  position: relative;
+}
+
+.box {
+  /* height: 93.5px;
+  width: 95px; */
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  bottom: 1%;
+  right: -35%;
+}
+
+.pinslot {
+  height: 100px;
+  width: 80px;
+}
+
+.top-row-right-box {
+  height: 28.5%;
+  width: 100%;
+}
+
+.main-content-row {
+  height: 60.5%;
+  width: 100%;
+  display: flex;
+}
+
+.bottom-row {
+  height: 11%;
+  width: 100%;
+}
+.left-right-buffer {
+}
+
+.keypad-container {
+}
+
+.all-map-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  opacity: 0.95;
+}
+
+.modal-body-map {
+  display: none;
+  width: 90%;
+  height: 90%;
+  opacity: 1;
+  margin: 0;
+
+  background-image: url("images/map.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 0;
+}
+
+.all-map {
+  position: absolute;
+  pointer-events: auto;
+  width: 140px;
+  height: 140px;
+  z-index: 20;
+}
+
+.cafeteria {
+  position: absolute;
+  pointer-events: auto;
+  width: 20%;
+  height: 35%;
+  /* light yellow base */
+
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: bold;
+  color: yellow;
+  cursor: pointer;
+
+  transition: 0.25s ease;
+}
